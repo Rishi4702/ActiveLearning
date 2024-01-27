@@ -53,5 +53,6 @@ plt.ylim([0.89, 1])
 plt.title('Active Learning Experiment Results')
 plt.legend()
 plt.grid(True)
+plt.savefig('mnist_pool_uncertainty_vs_emc.png')
 plt.show()
 
